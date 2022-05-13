@@ -6,7 +6,7 @@ public class PlayerControls : MonoBehaviour
 {
     [SerializeField] float throwSpeed = 20f;
     [SerializeField] float xRange = 10f;
-    [SerializeField] float yRange = 10f;
+    [SerializeField] float yRange = 7f;
 
     void Update()
     {
