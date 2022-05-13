@@ -7,10 +7,14 @@ public class PlayerControls : MonoBehaviour
     void Update()
     {
 
-      float xThrow = Input.GetAxis("Horizontal");
-      Debug.Log(xThrow);
-      
+      float xThrow = Input.GetAxis("Horizontal");     
       float yThrow = Input.GetAxis("Vertical");
-      Debug.Log(yThrow);
+
+      float xOffset= .1f;
+      float newXPos = transform.localPosition.x + xOffset;
+
+      transform.localPosition = new Vector3 
+      (
+        newXPos, transform.localPosition.y, transform.localPosition.z);
     }
 }
