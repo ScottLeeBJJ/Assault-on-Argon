@@ -108,7 +108,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1165845902449871714}
-  m_LocalRotation: {x: 0, y: -0.06842437, z: 0, w: 0.99765635}
+  m_LocalRotation: {x: 0, y: -0.06842454, z: 0, w: 0.9976563}
   m_LocalPosition: {x: 160.8, y: 173.7, z: 46.1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -117,7 +117,7 @@ Transform:
   - {fileID: 1165845902421028245}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 8.046288, y: 9.534798, z: 0.05559631}
+  m_LocalEulerAnglesHint: {x: 0, y: -7.847, z: 0}
 --- !u!95 &1165845902449871716
 Animator:
   serializedVersion: 4
@@ -171,7 +171,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4748122837939596, guid: ad19842cc2550fc488240fe1efb03aeb, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.52
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4748122837939596, guid: ad19842cc2550fc488240fe1efb03aeb, type: 3}
       propertyPath: m_LocalPosition.z
@@ -207,6 +207,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ad19842cc2550fc488240fe1efb03aeb, type: 3}
+--- !u!1 &1164435844342642917 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1410195100923926, guid: ad19842cc2550fc488240fe1efb03aeb, type: 3}
+  m_PrefabInstance: {fileID: 1165845900930285811}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1836356607
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1164435844342642917}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b23111fbef976c34781a93a23e7a90b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  throwSpeed: 20
 --- !u!4 &1170149546090657151 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4748122837939596, guid: ad19842cc2550fc488240fe1efb03aeb, type: 3}

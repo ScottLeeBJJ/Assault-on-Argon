@@ -4,17 +4,21 @@ using UnityEngine;
 
 public class PlayerControls : MonoBehaviour
 {
+    [SerializeField] float throwSpeed = 20f;
+
     void Update()
     {
 
       float xThrow = Input.GetAxis("Horizontal");     
       float yThrow = Input.GetAxis("Vertical");
 
-      float xOffset= .1f;
+      float xOffset = xThrow * Time.deltaTime * throwSpeed;
       float newXPos = transform.localPosition.x + xOffset;
 
+      float yOffset = yThrow * Time.deltaTime * throwSpeed;
+      float newYPos = transform.localPosition.y + yOffset;
+
       transform.localPosition = new Vector3 
-      (
-        newXPos, transform.localPosition.y, transform.localPosition.z);
+      (newXPos, newYPos, transform.localPosition.z);
     }
 }
