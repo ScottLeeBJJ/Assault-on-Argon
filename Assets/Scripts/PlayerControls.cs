@@ -10,7 +10,18 @@ public class PlayerControls : MonoBehaviour
 
     void Update()
     {
+      ProcessTranslation();
+      ProcessRotation();
+    }
 
+    void ProcessRotation()
+    {
+      // A quaternion represents two things. It has an x, y, and z component, which represents the axis about which a rotation will occur. It also has a w component, which represents the amount of rotation which will occur about this axis. In short, a vector, and a float.
+      transform.localRotation = Quaternion.Euler(-30f, 30f, 0f); 
+    }
+
+    void ProcessTranslation()
+    {
       // the positioning of these variables is critical, will not work unless laid out like this
 
       float xThrow = Input.GetAxis("Horizontal");     
