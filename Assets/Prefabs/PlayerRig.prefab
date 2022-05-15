@@ -26,7 +26,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1165845902421028240}
   m_LocalRotation: {x: -0.044713013, y: 0.000000007450581, z: 0.0000000071304385, w: 0.9989999}
-  m_LocalPosition: {x: 0.3, y: 3.5, z: -16.9}
+  m_LocalPosition: {x: 0.3, y: 0.26, z: -21.2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -227,6 +227,10 @@ MonoBehaviour:
   throwSpeed: 20
   xRange: 10
   yRange: 7
+  controlPitchFactor: -15
+  positionPitchFactor: -2
+  positionYawFactor: 2
+  controlRollFactor: -15
 --- !u!4 &1170149546090657151 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4748122837939596, guid: ad19842cc2550fc488240fe1efb03aeb, type: 3}
