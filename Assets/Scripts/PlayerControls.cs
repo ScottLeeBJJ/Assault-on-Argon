@@ -4,18 +4,19 @@ using UnityEngine;
 
 public class PlayerControls : MonoBehaviour
 {
-    [SerializeField] float throwSpeed = 20f;
-    [SerializeField] float xRange = 10f;
-    [SerializeField] float yRange = 7f;
+    [Header("General Setup Settings")]
+    [Tooltip("How fast ship moves up and down based on player input")] [SerializeField] float throwSpeed = 20f;
+    [Tooltip("Controls max player movement on the X Axis")] [SerializeField] float xRange = 10f;
+    [Tooltip("Controls max player movement on the Y Axis")] [SerializeField] float yRange = 7f;
 
-    [SerializeField] GameObject[] lasers;
+    [Header("Laser Settings")]
+    [Tooltip("Laser Beam Settings")] [SerializeField] GameObject[] lasers;
 
-    [SerializeField] float controlPitchFactor = -15f;
-    [SerializeField] float positionPitchFactor = -2f;
-
-    [SerializeField] float positionYawFactor = 2f;
-
-    [SerializeField] float controlRollFactor = -20f;
+    [Header("Player Movement Settings")]
+    [Tooltip("controls pitch of spaceship")] [SerializeField] float controlPitchFactor = -15f;
+    [Tooltip("controls pitch of spaceship")] [SerializeField] float positionPitchFactor = -2f;
+    [Tooltip("controls yaw of spaceship")] [SerializeField] float positionYawFactor = 2f;
+    [Tooltip("controls roll of spaceship")] [SerializeField] float controlRollFactor = -20f;
 
     float xThrow;
     float yThrow;
