@@ -154,18 +154,6 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4748122837939596, guid: ad19842cc2550fc488240fe1efb03aeb, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4748122837939596, guid: ad19842cc2550fc488240fe1efb03aeb, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4748122837939596, guid: ad19842cc2550fc488240fe1efb03aeb, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4748122837939596, guid: ad19842cc2550fc488240fe1efb03aeb, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.4
       objectReference: {fileID: 0}
@@ -207,30 +195,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ad19842cc2550fc488240fe1efb03aeb, type: 3}
---- !u!1 &1164435844342642917 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1410195100923926, guid: ad19842cc2550fc488240fe1efb03aeb, type: 3}
-  m_PrefabInstance: {fileID: 1165845900930285811}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1836356607
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1164435844342642917}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b23111fbef976c34781a93a23e7a90b8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  throwSpeed: 20
-  xRange: 10
-  yRange: 7
-  controlPitchFactor: -15
-  positionPitchFactor: -2
-  positionYawFactor: 2
-  controlRollFactor: -15
 --- !u!4 &1170149546090657151 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4748122837939596, guid: ad19842cc2550fc488240fe1efb03aeb, type: 3}
