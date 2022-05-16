@@ -22,6 +22,7 @@ public class PlayerControls : MonoBehaviour
     {
       ProcessTranslation();
       ProcessRotation();
+      processFiring();
     }
 
     void ProcessRotation()
@@ -57,5 +58,17 @@ public class PlayerControls : MonoBehaviour
 
 
       transform.localPosition = new Vector3 (clampedXPos, clampedYPos, transform.localPosition.z);
+    }
+
+    void processFiring()
+    {
+      if (Input.GetButton("Fire1"))
+      {
+        Debug.Log("firing");
+      }
+      else
+      {
+        Debug.Log("not firing");
+      }
     }
 }
