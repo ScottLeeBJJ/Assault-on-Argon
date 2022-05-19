@@ -177,8 +177,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   deathVFX: {fileID: 1241288416925051187, guid: 01318f9d19a90ae42a86e65c6ddc0fec, type: 3}
+  hitVFX: {fileID: 1241288416925051187, guid: f9be1d7b3bfa86b469f9d1a1b979405b, type: 3}
   parent: {fileID: 1526580308}
   scorePerHit: 15
+  hitPoints: 2
 --- !u!136 &238731572
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -473,8 +475,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   deathVFX: {fileID: 1241288416925051187, guid: 01318f9d19a90ae42a86e65c6ddc0fec, type: 3}
+  hitVFX: {fileID: 1241288416925051187, guid: f9be1d7b3bfa86b469f9d1a1b979405b, type: 3}
   parent: {fileID: 1526580308}
   scorePerHit: 15
+  hitPoints: 2
 --- !u!136 &912320701
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -613,8 +617,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   deathVFX: {fileID: 1241288416925051187, guid: 01318f9d19a90ae42a86e65c6ddc0fec, type: 3}
+  hitVFX: {fileID: 1241288416925051187, guid: f9be1d7b3bfa86b469f9d1a1b979405b, type: 3}
   parent: {fileID: 1526580308}
   scorePerHit: 15
+  hitPoints: 2
 --- !u!136 &1218956150
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -728,8 +734,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   deathVFX: {fileID: 1241288416925051187, guid: 01318f9d19a90ae42a86e65c6ddc0fec, type: 3}
+  hitVFX: {fileID: 1241288416925051187, guid: f9be1d7b3bfa86b469f9d1a1b979405b, type: 3}
   parent: {fileID: 1526580308}
   scorePerHit: 15
+  hitPoints: 10
 --- !u!136 &1235982779
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -1118,8 +1126,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   deathVFX: {fileID: 1241288416925051187, guid: 01318f9d19a90ae42a86e65c6ddc0fec, type: 3}
+  hitVFX: {fileID: 1241288416925051187, guid: f9be1d7b3bfa86b469f9d1a1b979405b, type: 3}
   parent: {fileID: 1526580308}
   scorePerHit: 15
+  hitPoints: 2
 --- !u!1001 &1165845902574698721
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1127,10 +1137,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1305201516, guid: c6cad4b0c50593646bbdd6acafdeb253, type: 3}
-      propertyPath: m_IsTrigger
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 1165845902449871714, guid: c6cad4b0c50593646bbdd6acafdeb253, type: 3}
       propertyPath: m_Name
       value: PlayerRig
@@ -1141,15 +1147,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1165845902449871717, guid: c6cad4b0c50593646bbdd6acafdeb253, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 160.8
+      value: 160.81
       objectReference: {fileID: 0}
     - target: {fileID: 1165845902449871717, guid: c6cad4b0c50593646bbdd6acafdeb253, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 173.7
+      value: 174.25
       objectReference: {fileID: 0}
     - target: {fileID: 1165845902449871717, guid: c6cad4b0c50593646bbdd6acafdeb253, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 46.1
+      value: 46.12
       objectReference: {fileID: 0}
     - target: {fileID: 1165845902449871717, guid: c6cad4b0c50593646bbdd6acafdeb253, type: 3}
       propertyPath: m_LocalRotation.w
