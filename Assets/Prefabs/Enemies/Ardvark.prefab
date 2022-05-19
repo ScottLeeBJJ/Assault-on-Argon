@@ -851,7 +851,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5323889236456932636}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 192.90175, y: 182.69, z: 206.8}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -886,9 +886,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   deathVFX: {fileID: 1241288416925051187, guid: 01318f9d19a90ae42a86e65c6ddc0fec, type: 3}
   hitVFX: {fileID: 1241288416925051187, guid: f9be1d7b3bfa86b469f9d1a1b979405b, type: 3}
-  parent: {fileID: 0}
   scorePerHit: 15
-  hitPoints: 10
+  hitPoints: 2
 --- !u!1 &5331140606788851708
 GameObject:
   m_ObjectHideFlags: 0
