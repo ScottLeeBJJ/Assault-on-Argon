@@ -271,6 +271,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1676033447}
     m_Modifications:
+    - target: {fileID: 4494956171206851944, guid: 22c82187af460d9479432ac16e45d6ea, type: 3}
+      propertyPath: deathFX
+      value: 
+      objectReference: {fileID: 1241288416925051187, guid: 01318f9d19a90ae42a86e65c6ddc0fec, type: 3}
+    - target: {fileID: 4494956171824237813, guid: 22c82187af460d9479432ac16e45d6ea, type: 3}
+      propertyPath: deathFX
+      value: 
+      objectReference: {fileID: 1241288416925051187, guid: 01318f9d19a90ae42a86e65c6ddc0fec, type: 3}
+    - target: {fileID: 4494956173091634552, guid: 22c82187af460d9479432ac16e45d6ea, type: 3}
+      propertyPath: deathFX
+      value: 
+      objectReference: {fileID: 1241288416925051187, guid: 01318f9d19a90ae42a86e65c6ddc0fec, type: 3}
     - target: {fileID: 6862539424161479212, guid: 22c82187af460d9479432ac16e45d6ea, type: 3}
       propertyPath: m_Name
       value: Wave1 (1)
@@ -944,6 +956,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1142275932, guid: c6cad4b0c50593646bbdd6acafdeb253, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1305201515, guid: c6cad4b0c50593646bbdd6acafdeb253, type: 3}
       propertyPath: m_IsKinematic
       value: 0
@@ -1171,6 +1187,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1676033447}
     m_Modifications:
+    - target: {fileID: 4494956171206851944, guid: 22c82187af460d9479432ac16e45d6ea, type: 3}
+      propertyPath: deathFX
+      value: 
+      objectReference: {fileID: 1241288416925051187, guid: 01318f9d19a90ae42a86e65c6ddc0fec, type: 3}
+    - target: {fileID: 4494956171824237813, guid: 22c82187af460d9479432ac16e45d6ea, type: 3}
+      propertyPath: deathFX
+      value: 
+      objectReference: {fileID: 1241288416925051187, guid: 01318f9d19a90ae42a86e65c6ddc0fec, type: 3}
+    - target: {fileID: 4494956173091634552, guid: 22c82187af460d9479432ac16e45d6ea, type: 3}
+      propertyPath: deathFX
+      value: 
+      objectReference: {fileID: 1241288416925051187, guid: 01318f9d19a90ae42a86e65c6ddc0fec, type: 3}
     - target: {fileID: 6862539424161479212, guid: 22c82187af460d9479432ac16e45d6ea, type: 3}
       propertyPath: m_Name
       value: Wave1
