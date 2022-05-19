@@ -1127,6 +1127,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1305201516, guid: c6cad4b0c50593646bbdd6acafdeb253, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1165845902449871714, guid: c6cad4b0c50593646bbdd6acafdeb253, type: 3}
       propertyPath: m_Name
       value: PlayerRig
